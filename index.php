@@ -7,8 +7,9 @@
 //    5.cannot start with a number e.g $2people.
 // process of pushing to git hub
 //1.create git local repo
-//make sure you are inside the folder that has the code in the terminal
+//make sure you are inside the folder that has the code in the terminal use cd then name of the folder
 //$git init
 // $ git add index.php
 //$git add . (space btn add and  .)
+//$git commmit -m "message for commit" then create repo online
 //

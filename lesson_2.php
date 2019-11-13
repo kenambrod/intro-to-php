@@ -15,6 +15,7 @@ echo 200;
 $x = 12;
 $y = 20;
 echo $x;
+
 echo $y;
 //joining a number and a string
 
@@ -29,7 +30,8 @@ echo"<br>";
 //1.STRING
 //2.INTERGER
 //3.FLOAT(decimal_point)
-//4.BOOLEAN (state true or false)
+//4.BOOLEAN (state true or fal
+
 
 
 //STRINGS
@@ -50,3 +52,47 @@ echo"<br>";
 //strpos()
 //str_replace()
 //research and implement on the following and implement the string functions
+ echo strrev("hello");
+ echo "<br>";
+ echo str_replace("world","kennedy","hello world");
+ echo "<br>";
+ echo strpos("kennedy the jude","jude");
+ echo "<br>";
+$cat=1.9e411;
+var_dump($cat);
+
+$arnold = 500;
+echo "<br>";
+//intergers and floating numbers
+//interger -rules
+//    whole number without decimal point
+//atleast one digit can be -ve or +ve
+//function used to check intergrs are
+//is int()
+//is_long()
+
+//var_dump() returns the type of data i.e interger or string etc
+$x = "test interger";
+var_dump($x);
+echo"<br>";
+is_int($x);
+echo"<br>";
+var_dump(is_int($x));
+echo"<br>";
+
+//assignment
+//is_int()
+//is_long()
+
+//NUMBER DATA TYPES
+
+//FLOAT
+//is a number with decimal point
+//is_float() returns true if number has decimal point in it
+
+$y = 3.142;
+
+var_dump(is_float($y));
+
+//OPERATORS
+
