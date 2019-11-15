@@ -119,3 +119,54 @@ function greetings4( $name = "Developer"){
 
 greetings4("Opiyo");
 greetings4();
+
+//assignment:
+//create a function that takes a number as an argurment the number(n) represents the range of a loop. loop from
+//0 to n ,if a number is divisible by 3 echo "flizz";
+//if a number is divisible by 5 echo "buzz";
+//if a number is divisible by both echo "fizz buzz";
+//else echo the number that is not divisible;
+
+function divisorBy3And5( $number)
+{
+
+    if ($number % 3 == 0 and $number % 5 == 0 ) {
+        echo "flizzbuzz <br>";
+    } elseif ($number % 5 == 0) {
+        echo "buzz <br>";
+    } elseif ($number % 3 == 0) {
+        echo "fizz <br>";
+    } else {
+        echo "$number";
+    }
+}
+
+divisorBy3And5(15);
+
+echo "using switch statement <br>";
+
+
+function divisorBy3or5($numb){
+    switch ($numb){
+        case ($numb % 3 == 0 and $numb % 5 == 0):
+            echo "fizzbuzz <br>";
+            break;
+        case ($numb % 5 ==0):
+            echo "buzz <br>";
+            break;
+        case  ($numb % 3 == 0):
+            echo "fizz <br>";
+            break;
+        default:
+            echo "$numb";
+    }
+}
+ divisorBy3or5(20);
+divisorBy3And5(20);
+divisorBy3or5(30);
+divisorBy3And5(30);
+
+
+
+
+
