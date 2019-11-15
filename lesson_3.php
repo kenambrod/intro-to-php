@@ -75,7 +75,7 @@ echo"<br>";
 var_dump($age===18);
 echo"<br>";
 
-//INCREMENT OPERATOR
+//INCREEMENT OPERATOR
 $i = 0;
 $i ++;
 
@@ -84,6 +84,17 @@ $i ++;
 //AND;
 //NOT;
 //OR;
+echo "kennedy ";
+$y =10;
+$x = 20;
+$x  and $y >20;
+
+$y or $x ===20;
+
+$y xor $x < 5;
+
+
+
 
 
 

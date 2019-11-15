@@ -11,5 +11,5 @@
 //$git init
 // $ git add index.php
 //$git add . (space btn add and  .)
-//$git commmit -m "message for commit" then create repo online
+//$git commit -m "message for commit" then create repo online
 //
